@@ -266,26 +266,6 @@ The project can be implemented using data analytics and visualization technologi
 * **CSV** — Source dataset
 * **Data Analysis** — KPI and portfolio analysis
 
----
-
-## 📂 Repository Structure
-
-```text
-Bank-Loan-Analysis/
-│
-├── data/
-│   └── financial_loan.csv
-│
-├── resources/
-│   └── screenshots/
-│       ├── dashboard_1.png
-│       ├── kpis.png
-│       ├── good_bad_loans.png
-│       └── loan_status_grid.png
-│
-├── Project_Documentation.html
-│
-└── README.md
 ```
 
 ---
