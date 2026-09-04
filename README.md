@@ -17,7 +17,7 @@ The analysis focuses on key metrics such as:
 * Total amount received
 * Average interest rate
 * Average Debt-to-Income Ratio (DTI)
-* Good loan vs. bad loan performance
+* Good Loan vs. Bad Loan performance
 * Loan status-wise analysis
 * Month-to-Date (MTD) and Month-over-Month (MoM) trends
 
@@ -53,13 +53,11 @@ The dashboard tracks the following major KPIs:
 
 Measures the total number of loan applications received.
 
-The dashboard also provides:
+The dashboard provides:
 
 * Total applications
 * Month-to-Date (MTD) applications
 * Month-over-Month (MoM) change
-
----
 
 ### 2. Total Funded Amount
 
@@ -71,15 +69,11 @@ Metrics include:
 * MTD funded amount
 * MoM change
 
----
-
 ### 3. Total Amount Received
 
 Tracks the total amount received from borrowers through loan repayments.
 
 This metric helps evaluate the cash flow generated from the loan portfolio.
-
----
 
 ### 4. Average Interest Rate
 
@@ -90,8 +84,6 @@ The dashboard provides:
 * Overall average interest rate
 * MTD average interest rate
 * MoM change
-
----
 
 ### 5. Average Debt-to-Income Ratio
 
@@ -107,7 +99,7 @@ The dashboard tracks:
 
 ---
 
-## 🟢 Good Loan vs 🔴 Bad Loan Analysis
+## 🟢 Good Loan vs. 🔴 Bad Loan Analysis
 
 To evaluate the quality of the loan portfolio, loans are categorized based on their loan status.
 
@@ -124,8 +116,6 @@ The dashboard tracks:
 * Total Good Loan Applications
 * Good Loan Funded Amount
 * Good Loan Amount Received
-
----
 
 ### 🔴 Bad Loans
 
@@ -167,9 +157,9 @@ This provides a more detailed understanding of the loan portfolio.
 
 ## 📊 Dashboard Preview
 
-<img width="1376" height="777" alt="image" src="https://github.com/user-attachments/assets/5d535de2-0ab0-47a8-ad39-f0e54c2e6aa7" />
+### Dashboard 1 — Summary
 
-```
+<img width="1376" height="777" alt="Bank Loan Analysis Dashboard - Summary" src="https://github.com/user-attachments/assets/5d535de2-0ab0-47a8-ad39-f0e54c2e6aa7">
 
 ---
 
@@ -177,11 +167,17 @@ This provides a more detailed understanding of the loan portfolio.
 
 The project uses the following dataset:
 
-```text
-financial_loan.csv
-```
+**`financial_loan.csv`**
 
-The dataset contains loan-level information required to analyze applications, funding, repayments, borrower characteristics, loan status, interest rates, and DTI.
+The dataset contains loan-level information required to analyze:
+
+* Loan applications
+* Funding
+* Repayments
+* Borrower characteristics
+* Loan status
+* Interest rates
+* Debt-to-Income ratio
 
 ---
 
@@ -201,23 +197,17 @@ The bank evaluates information such as:
 * Existing debt
 * Debt-to-Income ratio
 
----
-
 ### 2. Risk Assessment & Approval
 
 The bank evaluates the borrower's creditworthiness and overall risk before approving the loan.
 
 Factors such as credit history, DTI, loan purpose, and financial capacity may influence the decision.
 
----
-
 ### 3. Loan Funding
 
 Once approved, the loan amount is disbursed to the borrower.
 
 The funded amount represents the capital provided by the bank.
-
----
 
 ### 4. Repayment & Monitoring
 
@@ -248,10 +238,15 @@ Loan Funding
        ↓
 Repayment
        ↓
- ┌─────┴──────────┐
- ↓                ↓
-Current       Fully Paid
- ↓
+ ┌───────────────┐
+ │ Loan Status   │
+ └───────┬───────┘
+         │
+    ┌────┴─────┐
+    ↓          ↓
+ Current    Fully Paid
+    │
+    ↓
 Charged Off
 ```
 
@@ -259,55 +254,76 @@ Charged Off
 
 ## 🛠️ Tools & Technologies
 
-The project can be implemented using data analytics and visualization technologies such as:
+The project uses data analytics and visualization technologies such as:
 
 * **SQL** — Data extraction and transformation
-* **Power BI / BI Tool** — Dashboard creation and visualization
+* **Power BI** — Dashboard creation and visualization
 * **CSV** — Source dataset
 * **Data Analysis** — KPI and portfolio analysis
 
-```
+---
 
+## 📌 Project Status
 
-📌 Project Status
-Component	Status
-Dataset Preparation	✅ Completed
-Data Analysis	✅ Completed
-Dashboard 1 — Summary	✅ Completed
-KPI Analysis	✅ Completed
-Good vs. Bad Loan Analysis	✅ Completed
-Loan Status Analysis	✅ Completed
-Additional Dashboards	🔄 Planned
-🔮 Future Enhancements
+| Component                  |    Status   |
+| -------------------------- | :---------: |
+| Dataset Preparation        | ✅ Completed |
+| Data Analysis              | ✅ Completed |
+| Dashboard 1 — Summary      | ✅ Completed |
+| KPI Analysis               | ✅ Completed |
+| Good vs. Bad Loan Analysis | ✅ Completed |
+| Loan Status Analysis       | ✅ Completed |
+| Additional Dashboards      |  🔄 Planned |
 
-```
+---
+
+## 🔮 Future Enhancements
 
 The project can be further enhanced with additional dashboards and advanced analytics, including:
 
-📅 Monthly loan application trend analysis
-🌎 Regional loan distribution analysis
-👤 Borrower demographic analysis
-💳 Loan-purpose analysis
-📉 Default and credit-risk analysis
-📊 Detailed loan performance dashboard
-🔍 Interactive drill-down and filtering
-📈 Advanced trend and comparative analysis
-🤖 Predictive loan-risk modeling
-💡 Business Insights
+* 📅 Monthly loan application trend analysis
+* 🌎 Regional loan distribution analysis
+* 👤 Borrower demographic analysis
+* 💳 Loan-purpose analysis
+* 📉 Default and credit-risk analysis
+* 📊 Detailed loan performance dashboard
+* 🔍 Interactive drill-down and filtering
+* 📈 Advanced trend and comparative analysis
+* 🤖 Predictive loan-risk modeling
+
+---
+
+## 💡 Business Insights
 
 The analysis provides valuable insights that can help banking stakeholders:
 
-📊 Monitor overall lending performance
-📈 Identify changes and trends in loan demand
-💰 Evaluate the bank's loan portfolio performance
-💳 Track loan funding and repayment activities
-⚠️ Identify potentially risky loan segments
-👤 Understand borrower financial health
-🟢🔴 Evaluate good and bad loan performance
-🎯 Support better lending and risk-management decisions
-📄 Project Documentation
+* 📊 Monitor overall lending performance
+* 📈 Identify changes and trends in loan demand
+* 💰 Evaluate the bank's loan portfolio performance
+* 💳 Track loan funding and repayment activities
+* ⚠️ Identify potentially risky loan segments
+* 👤 Understand borrower financial health
+* 🟢🔴 Evaluate Good vs. Bad Loan performance
+* 🎯 Support better lending and risk-management decisions
 
-Detailed documentation covering the Problem Statement and Domain Knowledge is included in the repository.
+---
+
+## 📄 Project Documentation
+
+Detailed documentation covering the **Problem Statement** and **Domain Knowledge** is included in the repository.
+
+### Documentation Includes
+
+* Project Problem Statement
+* Business Requirements
+* Loan Domain Knowledge
+* Loan Lifecycle
+* Key Business Terms
+* Analysis Requirements
+
+**📄 [View Project Documentation](Project_Documentation.html)**
+
+---
 
 ## ⭐ Conclusion
 
@@ -317,7 +333,7 @@ The **Bank Loan Analysis Dashboard** transforms raw loan data into a structured 
 
 > **Loan Applications → Funding → Repayments → Loan Quality → Risk Indicators**
 
-Further dashboards can build upon this foundation to provide deeper insights into borrower behavior, loan performance, and risk.
+Further dashboards can build upon this foundation to provide deeper insights into borrower behavior, loan performance, regional trends, and credit risk.
 
 ---
 
