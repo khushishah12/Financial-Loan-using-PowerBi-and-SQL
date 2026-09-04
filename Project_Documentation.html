@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Loan Report - Documentation</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
+        h1 { color: #2c3e50; text-align: center; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 30px; border-bottom: 1px solid #bdc3c7; padding-bottom: 5px; }
+        h3 { color: #34495e; }
+        .container { background-color: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+        .section { margin-bottom: 30px; }
+        ul { margin-bottom: 15px; padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .kpi-card { background: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 15px; border-radius: 4px; }
+        .highlight { font-weight: bold; color: #2c3e50; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bank Loan Report - Project Documentation</h1>
+        
+        <div class="section">
+            <h2>1. Problem Statement</h2>
+            <p>In order to monitor and assess our bank's lending activities and performance, we need to create a comprehensive Bank Loan Report. This report aims to provide insights into key loan-related metrics and their changes over time. The report will help us make data-driven decisions, track our loan portfolio's health, and identify trends that can inform our lending strategies.</p>
+            
+            <h3>Dashboard 1: Summary</h3>
+            <div class="kpi-card">
+                <p><span class="highlight">Total Loan Applications:</span> Calculate the total number of loan applications received during a specified period. Monitor the Month-to-Date (MTD) Loan Applications and track changes Month-over-Month (MoM).</p>
+            </div>
+            <div class="kpi-card">
+                <p><span class="highlight">Total Funded Amount:</span> Understand the total amount of funds disbursed as loans. Monitor the MTD Total Funded Amount and analyse the Month-over-Month (MoM) changes.</p>
+            </div>
+            <div class="kpi-card">
+                <p><span class="highlight">Total Amount Received:</span> Track the total amount received from borrowers to assess cash flow and loan repayment. Analyse the Month-to-Date (MTD) Total Amount Received and observe the Month-over-Month (MoM) changes.</p>
+            </div>
+            <div class="kpi-card">
+                <p><span class="highlight">Average Interest Rate:</span> Calculate the average interest rate across all loans, MTD, and monitor the Month-over-Month (MoM) variations to provide insights into the lending portfolio's overall cost.</p>
+            </div>
+            <div class="kpi-card">
+                <p><span class="highlight">Average Debt-to-Income Ratio (DTI):</span> Evaluate the average DTI for borrowers to gauge their financial health. Compute the average DTI for all loans, MTD, and track Month-over-Month (MoM) fluctuations.</p>
+            </div>
+
+            <h3>Good Loan v Bad Loan KPIs</h3>
+            <p>To evaluate the performance of our lending activities and assess portfolio quality, we distinguish between 'Good Loans' and 'Bad Loans'.</p>
+            <ul>
+                <li><strong>Good Loan KPIs:</strong> Includes loans with a status of 'Fully Paid' and 'Current'. Metrics include Application Percentage, Total Applications, Funded Amount, and Total Received Amount.</li>
+                <li><strong>Bad Loan KPIs:</strong> Includes loans with a status of 'Charged Off'. Metrics include Application Percentage, Total Applications, Funded Amount, and Total Received Amount.</li>
+            </ul>
+
+            <h3>Loan Status Grid View</h3>
+            <p>A grid view report categorized by 'Loan Status' provides a comprehensive overview of operations. It tracks Total Loan Applications, Funded Amount, Amount Received, MTD Funded Amount, MTD Amount Received, Average Interest Rate, and Average DTI by status.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Domain Knowledge</h2>
+            <p>Bank loans are a crucial financial tool that enables individuals and businesses to achieve their goals. Understanding the terms, costs, and responsibilities associated with loans is essential for informed financial decisions.</p>
+            
+            <h3>Data Collection Channels</h3>
+            <ul>
+                <li><strong>Loan Applications:</strong> Detailed applications submitted electronically or in paper form.</li>
+                <li><strong>Credit Reports:</strong> Accessed from credit bureaus to assess creditworthiness, history, and payment behaviour.</li>
+                <li><strong>Internal Records:</strong> Maintained in the bank's database, covering disbursements, repayments, and status changes.</li>
+                <li><strong>Online Portals & Third-party Sources:</strong> Portals for application and payment, alongside external income verification services.</li>
+            </ul>
+
+            <h3>Process of Granting a Loan</h3>
+            <ol>
+                <li><strong>Loan Application & Review:</strong> Customer submits an application, and the institution reviews necessary documentation.</li>
+                <li><strong>Verification & Credit Check:</strong> Identity, credit history, income, and employment are verified. Debt-to-Income Ratio (DTI) is calculated.</li>
+                <li><strong>Risk Assessment & Approval:</strong> Lenders evaluate the risk. If approved, the loan amount, rate, and terms are established.</li>
+                <li><strong>Agreement & Disbursement:</strong> The borrower signs the agreement, and funds are disbursed.</li>
+                <li><strong>Repayment & Monitoring:</strong> The borrower makes regular payments, and the lender continuously monitors the loan's health.</li>
+            </ol>
+
+            <h3>Reasons for Analysing Bank Loan Data</h3>
+            <ul>
+                <li><strong>Risk Assessment & Credit Risk Management:</strong> Evaluate creditworthiness, predict default probabilities, and manage overall credit risk.</li>
+                <li><strong>Decision-making & Portfolio Management:</strong> Support lending decisions and optimize portfolio health and pricing.</li>
+                <li><strong>Fraud Detection & Regulatory Compliance:</strong> Detect unusual patterns and comply with regulations like HMDA and KYC.</li>
+                <li><strong>Customer Insights & Retention:</strong> Understand behaviour, tailor products, and identify refinancing opportunities.</li>
+                <li><strong>Profitability Analysis & Market Research:</strong> Assess portfolio profitability and understand market trends.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
