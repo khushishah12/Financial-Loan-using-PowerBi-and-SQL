@@ -4,8 +4,6 @@ A data analytics project designed to analyze and monitor **bank lending activiti
 
 The project focuses on transforming raw loan data into meaningful business insights that can support **portfolio management, risk assessment, lending decisions, and performance monitoring**.
 
-> **Current Status:** 🟢 Dashboard 1 — Summary implemented
-
 ---
 
 ## 📌 Project Overview
@@ -169,10 +167,8 @@ This provides a more detailed understanding of the loan portfolio.
 
 ## 📊 Dashboard Preview
 
-> Add your Dashboard 1 screenshot here.
+<img width="1376" height="777" alt="image" src="https://github.com/user-attachments/assets/5d535de2-0ab0-47a8-ad39-f0e54c2e6aa7" />
 
-```markdown
-![Bank Loan Analysis Dashboard](resources/screenshots/dashboard_1.png)
 ```
 
 ---
