@@ -268,8 +268,6 @@ The project can be implemented using data analytics and visualization technologi
 
 ```
 
----
-
 ## 📌 Project Status
 
 | Component                 | Status      |
@@ -319,7 +317,7 @@ The analysis can help banking stakeholders:
 Detailed project documentation covering the **Problem Statement** and **Domain Knowledge** is available in:
 
 ```text
-Project_Documentation.html
+Project_Documentation.pdf
 ```
 
 ---
