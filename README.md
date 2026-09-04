@@ -268,61 +268,46 @@ The project can be implemented using data analytics and visualization technologi
 
 ```
 
----
 
-## 📌 Project Status
+📌 Project Status
+Component	Status
+Dataset Preparation	✅ Completed
+Data Analysis	✅ Completed
+Dashboard 1 — Summary	✅ Completed
+KPI Analysis	✅ Completed
+Good vs. Bad Loan Analysis	✅ Completed
+Loan Status Analysis	✅ Completed
+Additional Dashboards	🔄 Planned
+🔮 Future Enhancements
 
-| Component                 | Status      |
-| ------------------------- | ----------- |
-| Dataset Preparation       | ✅ Completed |
-| Data Analysis             | ✅ Completed |
-| Dashboard 1 — Summary     | ✅ Completed |
-| KPI Analysis              | ✅ Completed |
-| Good vs Bad Loan Analysis | ✅ Completed |
-| Loan Status Analysis      | ✅ Completed |
-| Additional Dashboards     | 🔄 Planned  |
-
----
-
-## 🔮 Future Enhancements
-
-Future versions of the project can include additional dashboards and advanced analytics such as:
-
-* 📅 Monthly loan application trends
-* 🌎 Regional loan distribution
-* 👤 Borrower demographic analysis
-* 💳 Loan-purpose analysis
-* 📉 Default-risk analysis
-* 📊 Detailed loan performance dashboard
-* 🔍 Interactive drill-down analysis
-* 📈 Advanced trend analysis
-* 🤖 Predictive loan-risk modeling
-
----
-
-## 💡 Business Insights
-
-The analysis can help banking stakeholders:
-
-* Monitor overall lending performance
-* Identify changes in loan demand
-* Evaluate loan portfolio quality
-* Track repayment performance
-* Identify potentially risky segments
-* Understand borrower financial health
-* Improve lending and risk-management strategies
-
----
-
-## 📄 Project Documentation
-
-Detailed project documentation covering the **Problem Statement** and **Domain Knowledge** is available in:
-
-```text
-Project_Documentation.html
 ```
 
----
+The project can be further enhanced with additional dashboards and advanced analytics, including:
+
+📅 Monthly loan application trend analysis
+🌎 Regional loan distribution analysis
+👤 Borrower demographic analysis
+💳 Loan-purpose analysis
+📉 Default and credit-risk analysis
+📊 Detailed loan performance dashboard
+🔍 Interactive drill-down and filtering
+📈 Advanced trend and comparative analysis
+🤖 Predictive loan-risk modeling
+💡 Business Insights
+
+The analysis provides valuable insights that can help banking stakeholders:
+
+📊 Monitor overall lending performance
+📈 Identify changes and trends in loan demand
+💰 Evaluate the bank's loan portfolio performance
+💳 Track loan funding and repayment activities
+⚠️ Identify potentially risky loan segments
+👤 Understand borrower financial health
+🟢🔴 Evaluate good and bad loan performance
+🎯 Support better lending and risk-management decisions
+📄 Project Documentation
+
+Detailed documentation covering the Problem Statement and Domain Knowledge is included in the repository.
 
 ## ⭐ Conclusion
 
